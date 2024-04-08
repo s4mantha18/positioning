@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: black;
+    margin-top: 300px;
+    position: relative;
+}
+
+main div {
+    width: 200px;
+    height: 100px;   
+}
+
+.red{
+    /* position: absolute; */
+    /* top: 10px;   /*spacing*/
+    /* right: 10px; /* adjustment */
+    /* left: 1390px;  */
+    position: sticky;
+    top: 10px;
+    background-color: red;
+}
+
+.green{
+    background-color: rgba(0, 128, 0, 0.342);
+    width: 300px;
+    position: fixed;
+    left: 40%;
+    top: 45%;
+}
+
+.blue{
+    position: relative;
+    top: 200px;
+    background-color: blue;
+}
+
+
